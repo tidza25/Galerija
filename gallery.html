@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gallery</title>
+        <style>
+            .container {
+                max-width: 960px;
+                width: 100%;
+                margin: 0 auto;
+                background-color: rgb(206, 204, 204);
+            }
+
+            .row1 {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: flex-start;
+            }
+
+            .column {
+                flex-basis: 20%;
+                box-sizing: border-box;
+                padding: 20px;
+            }
+
+
+            .box {
+                display: flex;
+                border-radius: 10px;
+                background-color: rgb(23, 141, 220);
+                flex-direction: column;
+            }
+
+            img {
+                width: 100%;  
+            }
+
+            p1  {
+                background-color : rgb(255, 255, 255);
+                color: rgb(0, 0, 0); 
+                text-align: center;
+                border-top-left-radius: 0px;
+                border-top-right-radius: 0px;
+                border-bottom-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+                
+                
+            }
+
+
+
+            h1, p {
+                color: rgb(0, 0, 0);
+                padding:20px;
+                text-align: left;
+                font-family: sans-serif;
+            }
+
+
+            @media screen and (max-width: 1024px) {
+                .column {
+                    flex-basis: 33.33%;
+                }
+            }
+
+            @media screen and (max-width: 414px) {
+                .column {
+                    flex-basis: 100%;
+                }
+            }
+
+   
+
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div>
+                <h1>Gallery Heading</h1>
+            </div>
+            <div class="row1">
+                <div class="column">
+                    <div class="box">
+                        <img src="image.png" alt="image1"/>
+                        <p1>image1</p1>  
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <img src="image.png" alt="image2"/>
+                        <p1>image2</p1> 
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <img src="image.png" alt="image3"/>
+                        <p1>image3</p1> 
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <img src="image.png" alt="image4"/>
+                        <p1>image4</p1> 
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <img src="image.png" alt="image5"/>
+                        <p1>image5</p1> 
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <img src="image.png" alt="image6"/>
+                        <p1>image6</p1> 
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <img src="image.png" alt="image7"/>
+                        <p1>image7</p1> 
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <img src="image.png" alt="image8"/>
+                        <p1>image8</p1> 
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <img src="image.png" alt="image9"/>
+                        <p1>image9</p1> 
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <img src="image.png" alt="image10"/>
+                        <p1>image10</p1> 
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+    </body>
+
+</html>
